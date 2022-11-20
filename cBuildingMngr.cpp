@@ -15,6 +15,8 @@ cBuildingMngr::~cBuildingMngr(void)
 
 void cBuildingMngr::mouseMoved( const OIS::MouseEvent &arg )
 {
+	// Todo: Change to switch/case
+	
 	if ( eBuildingMngrMode == BMM_CREATE_NEW_BLD )
 	{
 		// neuen Strang positionieren und Startrichtung festlegen (drehen)
